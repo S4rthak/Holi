@@ -1,0 +1,244 @@
+/** =============== All Over Styles =============== **/
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/** =================== Parent =====================**/
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#parent {
+    width: 1920px;
+    height: 1080px;
+}
+
+/** ==================Specific Styles================== **/
+/** ==================Header================== **/
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(117, 236, 244);
+}
+
+/** ==================Hero Section================== **/
+#hero {
+    background-image: url(https://www.cntravellerme.com/2021/05/BHvHtfRr-shutterstock_422347750-1-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+}
+
+#nav {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    padding-right: 1100px;
+    color: orange;
+}
+
+.linav {
+    padding-right: 20px;
+    font-size: 50px;
+}
+
+.primbutton {
+    margin: 20px 5px;
+    padding: 15px 30px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    font-size: 30px
+}
+
+#herosec {
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    padding: 35px 45px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#history {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 45px;
+    background-color: rgb(244, 248, 0);
+    font-size: 30px;
+    justify-content: center;
+}
+
+#hhistory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 248, 0);
+    width: 100%;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+.cards {
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 450px;
+    height: 650px;
+    padding: 20px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.cardholder {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+/**==============Below The Fold==================**/
+#gallery {
+    width: 100%;
+    height: 900px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin: 15px 0px;
+}
+#galleryh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    font-size: 60px;
+    background-color: rgb(255, 51, 0);
+}
+.gal{
+    background-color: aqua;
+}
+.gal1{
+    grid-column: 1 / 3;
+    background-image: url(https://www.lih.travel/wp-content/uploads/2019/02/Shigmo-Holi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gal2{
+    grid-row: 1 / 3;
+    grid-column: 3 / 4;
+    background-image: url(https://www.lih.travel/wp-content/uploads/2019/02/Rang-Panchami-Holi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gal3{
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+    background-image: url(https://en-media.thebetterindia.com/uploads/2015/03/Untitled-design-6.png);
+}
+.gal4{
+    background-image: url(https://www.lih.travel/wp-content/uploads/2019/02/Basant-Utsav.jpg);
+}
+.gal5{
+    background-image: url(igrl\ holi.jpg);
+    background-size: cover;
+}
+.gal6{
+    background-image: url(https://images.pexels.com/photos/1211968/pexels-photo-1211968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+/**==============Form==================**/
+#fun {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(98, 255, 41);
+}
+
+#quiz {
+    background-color: white;
+    padding: 35px;
+    margin: 50px;
+    border-radius: 15px;
+    height: 800px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: xx-large;
+}
+
+input[type=radio] {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.inputh {
+    margin-bottom: 8px;
+    font-weight: 900;
+}
+
+#button {
+    margin: 30px 5px;
+    padding: 25px 5px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    font-size: 30px
+}
+span{
+    margin-left: 15px;
+    color: blue;
+}
+.funhh{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 120px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 180px;
+}
+.funhh::after{
+    content: "\21D2";
+    padding-left: 40px;
+    font-size: 180px;
+}
+#after_submit > p{
+    color: blue;
+}
+/**==============Section-2==================**/
+/**==============Section-3==================**/
+/**==============Section-4==================**/
+/**==============Section-5==================**/
+/**==============Section-6==================**/
+/**================Footer==================**/
+#changecardholder2 {
+    justify-content: space-evenly;
+}

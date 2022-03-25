@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holi!</title>
+    <link rel="stylesheet" href="Holi.css">
+</head>
+
+<body>
+    <div id="parent">
+        <header id="home">
+            <img id="himg" src="jpg-removebg-preview.png" alt="Holi!">
+        </header>
+        <div id="hero">
+            <div id="nav">
+                <nav>
+                    <li class="linav"><a href="#home">Home</a></li>
+                    <li class="linav"><a href="#history">History</a></li>
+                    <li class="linav"><a href="#fun">Fun</a></li>
+                    <li class="linav"><a href="#gallery">Gallery</a></li>
+                </nav>
+                <div>
+                    <button class="primbutton">Start</button>
+                </div>
+            </div>
+            <div id="herosec">
+                <h1>Holi</h1>
+                <p>The Festival Of Colors</p>
+            </div>
+        </div>
+        <h1 id="hhistory">History</h1>
+        <div id="history">
+            <div class="cardholder">
+                <div class="cards">
+                    <h2>What is Holi?</h2>
+                    <img src="https://static.langimg.com/imagenext/nbtblogs/photo/astro/wp-content/uploads/2018/06/33425-A-according-to-your-sunsign-do-this-work-during-holika-dahan.jpg"
+                        alt="">
+                    <p>Holi is a popular ancient Hindu festival, also known as the Festival of Spring, the Festival of
+                        Colours or the Festival of Love. The festival celebrates the eternal and divine love of Radha
+                        Krishna.
+                    </p>
+                </div>
+                <div class="cards">
+                    <h2>Why is holi celebrated?</h2>
+                    <img src="https://th-thumbnailer.cdn-si-edu.com/Pl3SgTq0N0hl9-CAZLWunQnxHnI=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/6f/01/6f019763-6ead-4ae3-a3de-be0dbcb72a7c/89f93f0728e02b49a4b7a591ecaa0ba218651ab9jpg1072x0_q85_upscale.jpg"
+                        alt="">
+                    <p>Holi, also known as the festival of colours, is a religious occasion celebrated with much pomp.
+                        It marks the celebration of the victory of good over evil..
+                    </p>
+                </div>
+                <div class="cards">
+                    <h2>Which god do we worship on Holi?</h2>
+                    <img src="https://i.ytimg.com/vi/OWNRdwhUG9A/maxresdefault.jpg" alt="">
+                    <p>Holi also celebrates the Hindu god Krishna and the legend of Holika and Prahlad.
+                    </p>
+                </div>
+            </div>
+            <div class="cardholder" id="changecardholder2">
+                <div class="cards">
+                    <h2>When is holi celebrated? and what do we do on holi?</h2>
+                    <img src="https://www.proeves.com/blog/wp-content/uploads/2017/03/happy-holi-sms-in-hindi.jpg"
+                        alt="">
+                    <p>Holi celebrates the arrival of spring, the end of winter, the blossoming of love and for many, it
+                        is a festive day to meet others, play and laugh, forget and forgive, and repair broken
+                        relationships with Colors.
+                    </p>
+                </div>
+                <div class="cards">
+                    <h2>What dishes do we make in Holi?</h2>
+                    <img src="https://www.adityabirlacapital.com/healthinsurance/active-together/wp-content/uploads/2019/03/shutterstock_389741095.jpg"
+                        alt="">
+                    <p>We make tasty dishes and sweets like gulab jamun, ladoos, dhahi vada, potato chips,papad etc. But
+                        gujiya is the signature sweet of holi.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div id="fun">
+            <div class="funhh">
+                FUN <br> SECTION
+            </div>
+            <div class="funf">
+                <form action="" id="quiz" name="quiz">
+                    <p class="inputh">Why is Holi celebrated?</p>
+                    <div class="inputs"><input type="radio" name="answer1" id="answer"
+                            value="It marks the victory of good over evil."><span>It marks the victory of good over
+                            evil.</span><br></div>
+                    <div class="inputs"><input type="radio" name="answer1" id="answer" value="For fun."><span>For
+                            fun.</span><br></div>
+
+                    <p class="inputh">What is Holi also called?</p>
+                    <div class="inputs"><input type="radio" name="answer2" id="answer"
+                            value="The festival of Victory."><span>The festival of Victory.</span><br></div>
+                    <div class="inputs"><input type="radio" name="answer2" id="answer"
+                            value="The festival of Colors."><span>The festival of Colors.</span><br></div>
+
+                    <p class="inputh">Which god do we worship on Holi?</p>
+                    <div class="inputs"><input type="radio" name="answer3" id="answer"
+                            value="Krishna."><span>Krishna.</span><br></div>
+                    <div class="inputs"><input type="radio" name="answer3" id="answer"
+                            value="Ram."><span>Ram.</span><br></div>
+
+                    <p class="inputh">What is the main sweet of Holi?</p>
+                    <div class="inputs"><input type="radio" name="answer4" id="answer"
+                            value="Papad."><span>Papad.</span><br></div>
+                    <div class="inputs"><input type="radio" name="answer4" id="answer"
+                            value="Gujiya."><span>Gujiya.</span><br></div>
+
+                    <p class="inputh">When is holi celebrated?</p>
+                    <div class="inputs"><input type="radio" name="answer5" id="answer"
+                            value="The arrival of winters."><span>The arrival of winters.</span><br></div>
+                    <div class="inputs"><input type="radio" name="answer5" id="answer"
+                            value="The arrival of spring."><span>The arrival of spring.</span><br></div>
+
+                    <input id="button" type="button" value="I'm finished!" onclick="check()">
+                    <div id="after_submit">
+                        <p id="number_correct"></p>
+                        <p id="message"></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div>
+            <h1 id="galleryh">Gallery</h1>
+        </div>
+        <div id="gallery">
+            <div class="gal gal1"></div>
+            <div class="gal gal2"></div>
+            <div class="gal gal3"></div>
+            <div class="gal gal4"></div>
+            <div class="gal gal5"></div>
+            <div class="gal gal6"></div>
+        </div>
+    </div>
+</body>
+<script src="holi.js"></script>
+
+</html>
